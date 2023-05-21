@@ -87,3 +87,10 @@ struct PinecilStatusView: View {
         }
     }
 }
+
+struct PinecilStatusView_previews: PreviewProvider {
+    static var previews: some View {
+        PinecilStatusView()
+            .environmentObject(PinecilManager())
+    }
+}

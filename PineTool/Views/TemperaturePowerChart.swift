@@ -87,3 +87,10 @@ struct TemperaturePowerChart: View {
         )
     }
 }
+
+struct TemperaturePowerChart_previews: PreviewProvider {
+    static var previews: some View {
+        TemperaturePowerChart()
+            .environmentObject(PinecilManager())
+    }
+}

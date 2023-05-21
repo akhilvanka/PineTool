@@ -80,3 +80,10 @@ struct SettingsView: View {
         }
     }
 }
+
+struct SettingsView_previews: PreviewProvider {
+    static var previews: some View {
+        SettingsView()
+            .environmentObject(PinecilManager())
+    }
+}

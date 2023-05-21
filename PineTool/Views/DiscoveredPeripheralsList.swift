@@ -90,6 +90,15 @@ struct DiscoveredPeripheralsList: View {
     }
 }
 
+struct DiscoveredPeripheralsList_previews: PreviewProvider {
+    static var previews: some View {
+        DiscoveredPeripheralsList()
+            .environmentObject(PinecilManager())
+    }
+}
+
+
 extension CBPeripheral: Identifiable {
     public var id: UUID { self.identifier }
 }
+

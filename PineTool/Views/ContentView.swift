@@ -169,6 +169,16 @@ struct ContentView: View {
     }
 }
 
+
+struct ContentView_previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .environmentObject(PinecilManager())
+    }
+}
+
+
+
 private extension UIColor {
     /// Multiply the alpha component of an already-translucent colour
     func multiplyAlpha(by alpha: CGFloat) -> UIColor {
