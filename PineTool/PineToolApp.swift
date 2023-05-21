@@ -18,7 +18,7 @@ struct PineToolApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TemperatureLargeView()
                 .environmentObject(PinecilManager())
                 .onAppear {
                     UIApplication.shared.isIdleTimerDisabled = keepAwake

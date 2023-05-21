@@ -14,7 +14,7 @@ import SwiftUI
 
 struct PinecilStatusView: View {
     @EnvironmentObject var pinecilManager: PinecilManager
-
+    
     @ViewBuilder
     var statStack: some View {
         VStack(spacing: 4) {
@@ -40,6 +40,7 @@ struct PinecilStatusView: View {
         }
         .padding()
         .background(Color(.tertiarySystemGroupedBackground))
+//        .background(Color.black)
     }
 
     @ViewBuilder
@@ -54,6 +55,7 @@ struct PinecilStatusView: View {
                 .background(Color.red.opacity(0.3))
         }
     }
+    
 
     var body: some View {
         VStack(spacing: 0) {
@@ -94,3 +96,4 @@ struct PinecilStatusView_previews: PreviewProvider {
             .environmentObject(PinecilManager())
     }
 }
+

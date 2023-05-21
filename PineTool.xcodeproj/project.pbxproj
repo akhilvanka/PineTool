@@ -22,6 +22,7 @@
 		0E3B6C2129F68AC70093FC45 /* KeyboardGuide in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3B6C2029F68AC70093FC45 /* KeyboardGuide */; };
 		0E3B6C2529F694A40093FC45 /* Introspect in Frameworks */ = {isa = PBXBuildFile; productRef = 0E3B6C2429F694A40093FC45 /* Introspect */; };
 		0E3B6C2729F76E180093FC45 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 0E3B6C2629F76E180093FC45 /* LICENSE.md */; };
+		A135DAD12A1A795A009BCA55 /* TemperatureLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A135DAD02A1A795A009BCA55 /* TemperatureLargeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		0E3B6C1929F570AE0093FC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		0E3B6C1A29F688A90093FC45 /* TemperatureSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureSetViewController.swift; sourceTree = "<group>"; };
 		0E3B6C2629F76E180093FC45 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		A135DAD02A1A795A009BCA55 /* TemperatureLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureLargeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				0E3B6C0F29F3C7AC0093FC45 /* TemperaturePowerChart.swift */,
 				0E3B6C1129F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift */,
 				0E3B6C1529F559900093FC45 /* PinecilStatusView.swift */,
+				A135DAD02A1A795A009BCA55 /* TemperatureLargeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				0E3B6BFE29F3A7B80093FC45 /* ContentView.swift in Sources */,
 				0E3B6C1B29F688A90093FC45 /* TemperatureSetViewController.swift in Sources */,
 				0E3B6C1029F3C7AC0093FC45 /* TemperaturePowerChart.swift in Sources */,
+				A135DAD12A1A795A009BCA55 /* TemperatureLargeView.swift in Sources */,
 				0E3B6C1829F55EC70093FC45 /* PowerSource.swift in Sources */,
 				0E3B6C1429F552510093FC45 /* PinecilBulkData.swift in Sources */,
 				0E3B6C1229F4AE1F0093FC45 /* DiscoveredPeripheralsList.swift in Sources */,

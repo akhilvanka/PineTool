@@ -179,7 +179,7 @@ struct ContentView_previews: PreviewProvider {
 
 
 
-private extension UIColor {
+extension UIColor {
     /// Multiply the alpha component of an already-translucent colour
     func multiplyAlpha(by alpha: CGFloat) -> UIColor {
         var (red, green, blue, oldAlpha) = (CGFloat.zero, CGFloat.zero, CGFloat.zero, CGFloat.zero)
@@ -187,4 +187,15 @@ private extension UIColor {
 
         return UIColor(red: red, green: green, blue: blue, alpha: alpha * oldAlpha)
     }
+}
+
+extension UIScreen{
+   static let screenWidth = UIScreen.main.bounds.size.width
+   static let screenHeight = UIScreen.main.bounds.size.height
+   static let screenSize = UIScreen.main.bounds.size
+}
+
+extension Color {
+    static let backgroundColor = Color("Background")
+    static let darkBlack = Color(red: 38/255, green: 38/255, blue: 38/255)
 }

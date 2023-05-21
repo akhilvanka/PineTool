@@ -46,25 +46,6 @@ struct SettingsView: View {
                     )
                 }
                 .tint(.primary)
-
-                Section("My Other Apps") {
-                    Link(destination: URL(string: "https://apps.apple.com/app/apple-store/id1260531874?pt=118741246&ct=pt&mt=8")!) {
-                        HStack(alignment: .center, spacing: 8) {
-                            Image("PolymerLink")
-
-                            VStack(alignment: .leading) {
-                                Text("Polymer for OctoPrint")
-                                    .font(.subheadline)
-                                    .bold()
-
-                                Text("The nicest way to 3D print 😁")
-                                    .font(.caption)
-                                    .foregroundColor(.secondary)
-                            }
-                        }
-                    }
-                }
-                .tint(.primary)
             }
             .navigationTitle("Settings")
             .toolbar {
